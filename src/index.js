@@ -6,11 +6,12 @@ import 'jquery';
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.css';
 
+import Board from './components/Board'
+
 
 
 
 ReactDOM.render(
-	<MyComponent />,
+	<Board />,
 	document.getElementById('root')
 )
-
